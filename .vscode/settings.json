@@ -9,8 +9,6 @@
     "activityBarBadge.foreground": "#15202b",
     "sash.hoverBorder": "#03ff42",
     "statusBar.background": "#00cf34",
-    "statusBar.debuggingBackground": "#cf009b",
-    "statusBar.debuggingForeground": "#e7e7e7",
     "statusBar.foreground": "#e7e7e7",
     "statusBarItem.hoverBackground": "#03ff42",
     "statusBarItem.remoteBackground": "#00cf34",

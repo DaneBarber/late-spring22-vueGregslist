@@ -5,33 +5,25 @@
         <h2><span class="text-success">G</span>regslist</h2>
       </div>
     </router-link>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarText"
-      aria-controls="navbarText"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" />
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
         <li>
-          <router-link
-            :to="{ name: 'Cars' }"
-            class="btn text-success lighten-30 selectable text-uppercase"
-          >
+          <router-link :to="{ name: 'Cars' }" class="btn text-success lighten-30 selectable text-uppercase">
             Cars
           </router-link>
         </li>
         <li>
-          <router-link
-            :to="{ name: 'Houses' }"
-            class="btn text-success lighten-30 selectable text-uppercase"
-          >
+          <router-link :to="{ name: 'Houses' }" class="btn text-success lighten-30 selectable text-uppercase">
             Houses
+          </router-link>
+        </li>
+        <li>
+          <router-link :to="{ name: 'Jobs' }" class="btn text-success lighten-30 selectable text-uppercase">
+            Jobs
           </router-link>
         </li>
       </ul>

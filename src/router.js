@@ -23,6 +23,11 @@ const routes = [
   },
   // TODO you guys can do the jobs page
   {
+    path: '/jobs',
+    name: 'Jobs',
+    component: loadPage('JobsPage')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),
